@@ -1,0 +1,30 @@
+La répartition des tâches :
+
+Membre 1 :
+	Frontend :
+		Conception de la page d'accueil et de la page de profil utilisateur.
+		Conception des formulaires d'inscription et de connexion.
+	Backend :
+		Gestion de l'inscription et de la connexion des utilisateurs.
+		Mise en place de la base de données (choix des tables et des relations).
+	
+	Audit de sécurité :
+		Analyse des vulnérabilités liées à l'authentification et à la session utilisateur.
+Membre 2 :
+	Frontend :
+		Conception de la page d'upload des fichiers et de la page de partage.
+		Conception de l'interface utilisateur pour le téléchargement de fichiers.
+	Backend :
+		Implémentation de la fonctionnalité d'upload de fichiers.
+		Gestion du partage de fichiers (liens publics et privés).
+	Audit de sécurité :
+		Analyse des vulnérabilités liées au stockage et au partage des fichiers.
+Membre 3 :
+	Frontend :
+		Conception de l'interface utilisateur pour la gestion des fichiers (renommer, supprimer).
+		Conception de l'interface pour les audits de sécurité et les présentations.
+	Backend :
+		Implémentation de la fonctionnalité de gestion des fichiers.
+		Mise en place des audits de sécurité et gestion des retours.
+	Audit de sécurité :
+		Analyse des vulnérabilités liées à l'interface utilisateur et aux interactions frontend-backend.

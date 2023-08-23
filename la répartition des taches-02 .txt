@@ -1,0 +1,61 @@
+Membre 1 (Frontend) :
+Pages :
+
+index.php : Page d'accueil
+Description : Présente l'application, ses fonctionnalités clés, et offre des liens vers l'inscription et la connexion.
+
+register.php : Page d'inscription
+Description : Contient un formulaire permettant aux nouveaux utilisateurs de s'inscrire. Les champs pourraient inclure le nom d'utilisateur, le mot de passe, l'email, etc.
+
+login.php : Page de connexion
+Description : Offre un formulaire pour que les utilisateurs existants puissent entrer leurs identifiants et se connecter.
+
+profile.php : Page de profil utilisateur
+Description : Affiche les détails du compte utilisateur, tels que le nom d'utilisateur, l'email, ainsi qu'une liste des fichiers uploadés. Cette page pourrait aussi permettre des modifications de profil.
+
+Backend :
+
+register_process.php : Traitement de l'inscription
+Description : Gère la soumission du formulaire d'inscription, valide les données, crée un nouveau compte utilisateur dans la base de données et gère les erreurs éventuelles.
+
+login_process.php : Traitement de la connexion
+Description : Valide les identifiants soumis, établit une session utilisateur si les identifiants sont corrects, et redirige vers la page appropriée.
+
+profile_data.php : Données du profil utilisateur
+Description : Récupère et affiche les détails du profil utilisateur depuis la base de données.
+
+Membre 2 (Frontend + Backend) :
+Pages :
+
+upload.php : Page d'upload de fichier
+Description : Contient un formulaire permettant aux utilisateurs d'uploader des fichiers. Affiche également la progression de l'upload et les messages de confirmation/erreur.
+
+share.php : Page de partage de fichier
+Description : Permet à l'utilisateur de générer des liens de partage, soit publics, soit privés. Pourrait également offrir la possibilité d'ajouter un mot de passe pour les liens publics.
+
+download.php : Page de téléchargement de fichier
+Description : Permet aux utilisateurs ayant un lien de partage de télécharger le fichier associé. Si le fichier est protégé par un mot de passe, cette page devrait offrir un champ pour le saisir.
+
+Backend :
+
+upload_process.php : Traitement de l'upload de fichiers
+Description : Gère l'upload du fichier, le stocke de manière sécurisée, et met à jour la base de données avec les détails du fichier.
+share_process.php : Génération des liens de partage
+Description : Crée des liens de partage uniques pour les fichiers et les stocke dans la base de données.
+download_process.php : Logique de téléchargement des fichiers
+Description : Vérifie les permissions, gère la saisie du mot de passe si nécessaire, et sert le fichier pour le téléchargement.
+Membre 3 (Frontend + Backend + Audit de sécurité) :
+Pages :
+
+file_management.php : Page de gestion des fichiers
+Description : Affiche la liste des fichiers uploadés par l'utilisateur avec des options pour renommer, supprimer, ou partager. Pourrait également afficher des détails tels que la taille du fichier et la date d'upload.
+audit.php : Page d'audit de sécurité (si nécessaire)
+Description : Intègre et affiche les résultats des outils d'audit de sécurité, et pourrait également permettre de lancer des scans ou des analyses.
+error.php : Page d'erreur
+Description : Page générique pour afficher les messages d'erreur, comme "404 Not Found" ou "403 Forbidden".
+Backend :
+
+file_management_process.php : Logique de gestion des fichiers
+Description : Traite les actions de l'utilisateur, comme renommer ou supprimer des fichiers, et met à jour la base de données en conséquence.
+audit_process.php : Intégration des outils d'audit
+Description : Gère la logique backend pour les audits de sécurité, tels que le lancement de scans ou l'analyse des résultats.

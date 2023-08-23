@@ -1,0 +1,52 @@
+Diagramme de sequence : 
+
+1) Inscription :
+
+L'utilisateur accède à la page d'inscription.
+Le système affiche le formulaire d'inscription.
+L'utilisateur soumet le formulaire.
+Le système crée un compte utilisateur dans la base de données.
+Une fois la création confirmée, un message de succès est affiché à l'utilisateur.
+
+2) Connexion :
+
+L'utilisateur accède à la page de connexion.
+Le système affiche le formulaire de connexion.
+L'utilisateur soumet ses identifiants.
+Le système vérifie les identifiants dans la base de données.
+En fonction du résultat, l'accès est accordé ou refusé.
+
+3 ) Déconnexion :
+
+L'utilisateur clique sur 'Déconnexion'.
+Le système termine la session et redirige l'utilisateur vers la page d'accueil.
+
+4) Upload de fichier :
+
+L'utilisateur accède à la page d'upload.
+Le système affiche le formulaire d'upload.
+L'utilisateur sélectionne et soumet un fichier.
+Le système stocke le fichier dans la base de données.
+Une fois le stockage confirmé, un lien pour le fichier est affiché à l'utilisateur.
+
+5) Partage de fichier via un lien public :
+
+L'utilisateur sélectionne un fichier à partager.
+Le système offre l'option de partage public.
+L'utilisateur peut (optionnellement) définir un mot de passe pour le lien.
+Le système génère et affiche un lien public.
+
+6) Partage de fichier via un lien privé :
+
+L'utilisateur sélectionne un fichier à partager.
+Le système offre l'option de partage privé.
+L'utilisateur choisit un utilisateur destinataire.
+Le système génère et affiche un lien privé.
+
+7) Téléchargement de fichier :
+
+L'utilisateur accède au lien du fichier.
+Le système vérifie les permissions de téléchargement.
+Si un mot de passe est requis, le système le demande.
+L'utilisateur soumet le mot de passe (si demandé).
+Le système permet le téléchargement du fichier.
