@@ -1,4 +1,4 @@
- Diagramme de sequence : 
+Diagramme de sequence : 
 
 1) Inscription :
 
