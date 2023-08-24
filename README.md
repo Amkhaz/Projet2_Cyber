@@ -1,4 +1,4 @@
-# Projet de Développement Web
+# Projet partage des fichiers : Répartition des tâches
 
 ## Membre 1: Authentification et Gestion de Profil
 
