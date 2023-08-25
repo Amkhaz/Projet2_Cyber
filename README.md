@@ -1,6 +1,6 @@
 # Projet partage des fichiers : Répartition des tâches
 
-## Membre 1: Authentification et Gestion de Profil
+## Leslie: Authentification et Gestion de Profil
 
 ### Vues
 
