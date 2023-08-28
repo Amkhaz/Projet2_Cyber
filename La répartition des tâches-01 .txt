@@ -1,6 +1,6 @@
 La répartition des tâches :
 
-Membre 1 :
+Membre 1(Maikl) :
 	Frontend :
 		Conception de la page d'accueil et de la page de profil utilisateur.
 		Conception des formulaires d'inscription et de connexion.
